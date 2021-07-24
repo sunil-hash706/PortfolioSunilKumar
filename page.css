@@ -1,0 +1,156 @@
+ a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family: 'Fuggles', cursive;
+        font-weight: bolder;
+    }
+ body{
+     margin: 0;
+     padding: 0;
+     background-color: rgb(54, 49, 49);
+     position: relative;
+     top: 83px;
+ }
+#Heading{
+    background : url('/img/bgimg.jpg') no-repeat center center/ cover;
+}
+ #content{
+     border: 0px;
+     color: black;
+     font-weight: bold;
+     font-size: 20px;
+}
+
+ nav{
+      top: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      background-color: rgb(0, 0, 0);
+      position: fixed;
+
+ }
+ #LeftNav{  
+          width: 75%;
+ }
+ #RightNav{
+     width: 25%;
+     position: relative;
+    text-align: right;
+}
+#LeftItem{
+    display: flex;
+     
+}
+li{
+    list-style: none;
+}
+.item{
+    /* margin: 10px; */
+    padding: 10px;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    margin:  10px;
+}
+.Things{
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    justify-content: center;
+    /* background-color: rgb(195, 255, 29); */
+    border: 5px solid yellowgreen;
+    border-radius: 30px;
+    display: flex;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+h2{
+     padding: 10px;
+     display: flex;
+     width: 50%;
+     margin: auto;
+     justify-content: center;
+     color: rgb(255, 255, 255);
+     font-family: 'Dancing Script', cursive;
+     font-weight: bold;
+ }
+ #Links{
+     display: flex; 
+}
+div{
+    color: rgb(119, 177, 81);
+}
+#SocialLinks{
+   display: flex;
+   text-align: center;
+   justify-content: center;
+}
+.burger{
+  position: absolute;
+  right: 5%;
+  top: 5px;
+  display: none;
+}
+.line{
+    
+      width: 15px;
+      height: 2px;
+      background-color: aliceblue;
+      margin: 2px;
+      cursor: pointer;
+}
+@media screen and (max-width: 672px){
+    .burger{
+        display: block;
+    }
+    nav{
+        top: 0;
+        left: 0;
+        right: 0;
+        display: block;
+        background-color: rgb(0, 0, 0);
+        position: relative;
+  
+   }
+   #LeftNav{  
+            width: 70%;
+            margin: auto;
+   }
+   #RightNav{
+       width: 55%;
+       margin: auto;
+       display: flex;
+  
+      text-align: right;
+  }
+  #LeftItem{
+      display: block;
+       
+  }
+  .Things{
+    width: 70%;
+    margin: auto;
+     
+}
+h2{
+     padding: 10px;
+     display: flex;
+     width: 70%;
+     margin: auto;
+     justify-content: center;
+     
+ }
+ body{
+      background-color: black;
+     top: 0px;
+}
+.nav-height{
+    height: 30px;
+}
+.v-class{
+    opacity: 0;
+}
+}
